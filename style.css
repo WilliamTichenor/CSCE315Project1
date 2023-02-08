@@ -1,13 +1,32 @@
-h1 {
-	color: grey;
+#navDiv {
+	text-align: center;
+	margin-left: 0px;
+	margin-top: -40px;
 }
 
-.blue_overline_text {
-	color: blue;
-	text-decoration: overline;
+.nav_button {
+	font-size: 35px;
+	border-radius: 0px;
+	border: none;
+	background-color:#500000;
+	float: left;
+	width: 16.666666666%;
+	padding-bottom:10px;
+	color:white;
 }
 
-#red_underline_text {
-	color: red;
+#nameHeader {
+	text-align:center;
+	font-size:70px;
+	padding-top:0px;
+	color: black;
 	text-decoration: underline;
+}
+
+#body {
+	background-color:#991919;
+}
+
+p {
+	font-size: 18px;
 }

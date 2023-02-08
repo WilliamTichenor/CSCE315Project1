@@ -2,18 +2,23 @@
 <html>
 	<head>
 		<title>William Tichenor</title>
-		<link rel="stylesheet" type="text/css" href="style.css"></link>
+		<link id="css" rel="stylesheet" type="text/css" href="style.css"></link>
 	</head>
-	<body>
-		<h1 id="red_underline_text">William Tichenor</h1>
-		<p class="blue_overline_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. 
-		<a href="https://www.tamu.edu/">Texas A&M</a>!</p>
-		<img 
-	src="https://brandguide.tamu.edu/assets/img/logos/tam-box-
-	logo.png"/>
-		<a href="portfolio.html">Portfolio</a>
-		<a href="quals.html">Qualifications</a>
-		<a href="service.html">Service</a>
-		<a href="ai.html">ChatGPT</a>
+	<body id="body" style="font-family: 'Lucida Console', 'Courier New', monospace;">
+		<div id="navDiv">
+			<button class="nav_button" id="home" type="button" onclick="window.location='index.html'">Home</button>
+			<button class="nav_button" id="portfolio" type="button" onclick="window.location='portfolio.html'">Portfolio</button>
+			<button class="nav_button" id="quals" type="button" onclick="window.location='quals.html'">Qualifications</button>
+			<button class="nav_button" id="service" type="button" onclick="window.location='service.html'">Service</button>
+			<button class="nav_button" id="chatgpt" type="button" onclick="window.location='ai.html'">ChatGPT</button>
+		
+			<button class="nav_button" id="but" type="button" onclick="balls()">Switch Style</button>
+		</div>
+	
+		<h1 id="nameHeader"><br>William Tichenor</h1>
+		<p>Howdy! My name is William Tichenor. I am currently a junior studying for a degree in Computer science at <a href="https://www.tamu.edu/">Texas A&M</a>! I have been passionate about computers and programming from a young age, and have spent much of my youth improving my skillset. I enjoy working with artificial intelligence and databases, and hope to secure a job working with one of these things after graduation. I am also interested in Philosophy, in which I am currently pursuing a minor. I am also an offier in the <a href="https://www.tamutabletop.com/">Texas A&M Tabletop Troupe</a>, and have been a member since Fall 2020. My favorite board games include Betrayal at House on Hill, Blood on the Clocktower, Salem, and Secret Hitler. I was raised in Southlake, Texas, where I graduated from Carroll Senior High School in Spring of 2020. I was the president of their Computer Science club in my senior year, and competed in UIL Computer Science. This summer, I plan to apply for internships to grow my skills and experience in the field, and help to secure a job after graduation. I look forward to gaining more experience, and hopefully gaining some meaningful connections on the way! I partake in several hobbies outside of school, including playing video games, reading books, playing board games, and building computers. My current class schedule consists of CSCE 315; a group project class, CSCE 313; a computer organization class, PHIL 240; a logic class, PHIL 351; a theory of logic class, and CSCE 481; a seminar. These classes are improving my skill at programming, working in a team, logic, and many other skills important to succeed in the industry. I currently live in College Station in order to be closer to my classes and to take them in person. Hopefully I see some of y'all around campus!</p>
+		<img src="https://brandguide.tamu.edu/assets/img/logos/tam-box-logo.png"/>
+	
+		<script type="application/javascript" src="functions.js"></script>
 	</body>
 </html>

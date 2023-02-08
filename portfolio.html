@@ -2,12 +2,27 @@
 <html>
 	<head>
 		<title>Portfolio</title>
-		<link rel="stylesheet" type="text/css" href="style.css"></link>
+		<link id="css" rel="stylesheet" type="text/css" href="style.css"></link>
 	</head>
-	<body>
-		<h1 id="red_underline_text">William Tichenor</h1>
-		<p>My portfolio</p>
-		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-		<a href="index.html">Home</a>
+	<body id="body" style="font-family: 'Lucida Console', 'Courier New', monospace;">
+		<div id="navDiv">
+			<button class="nav_button" id="home" type="button" onclick="window.location='index.html'">Home</button>
+			<button class="nav_button" id="portfolio" type="button" onclick="window.location='portfolio.html'">Portfolio</button>
+			<button class="nav_button" id="quals" type="button" onclick="window.location='quals.html'">Qualifications</button>
+			<button class="nav_button" id="service" type="button" onclick="window.location='service.html'">Service</button>
+			<button class="nav_button" id="chatgpt" type="button" onclick="window.location='ai.html'">ChatGPT</button>
+		
+			<button class="nav_button" id="but" type="button" onclick="balls()">Switch Style</button>
+		</div>
+		
+		<h1 id="nameHeader"><br>William Tichenor</h1>
+		<p>A summary of some projects I have worked on or completed over the years. My personal github account can be found <a href="https://github.com/WilliamTichenor">here</a>.</p>
+		<ul style="list-style-type:disc;">
+			<li>A neural network that can play tic-tac-toe against the player. It uses a genetic algorithm to train the network by playing against itself. The entire project was made from scratch in Java.</li>
+			<li>A Unity project that involves manipulating a game of minesweeper using a cube. The different sides of the cube have different effects on the board, such as revealing tiles or flagging them. You move the cube by rolling it around the board, and every board was guaranteed to be solvable.</li>
+			<li>Various projects from Computer Science classes at TAMU, such as CSCE 121, CSCE 315, CSCE 313, CSCE 221, and others.</li>
+		</ul>
+		
+		<script type="application/javascript" src="functions.js"></script>
 	</body>
 </html>
