@@ -4,7 +4,7 @@
 		<title>Portfolio</title>
 		<link id="css" rel="stylesheet" type="text/css" href="style.css"></link>
 	</head>
-	<body id="body" style="font-family: 'Lucida Console', 'Courier New', monospace;">
+	<body onload="setCSS()">
 		<div id="navDiv">
 			<button class="nav_button" id="home" type="button" onclick="window.location='index.html'">Home</button>
 			<button class="nav_button" id="portfolio" type="button" onclick="window.location='portfolio.html'">Portfolio</button>
@@ -12,14 +12,14 @@
 			<button class="nav_button" id="service" type="button" onclick="window.location='service.html'">Service</button>
 			<button class="nav_button" id="chatgpt" type="button" onclick="window.location='ai.html'">ChatGPT</button>
 		
-			<button class="nav_button" id="but" type="button" onclick="balls()">Switch Style</button>
+			<button class="nav_button" id="but" type="button" onclick="switchCSS()">Switch Style</button>
 		</div>
 		
 		<h1 id="nameHeader"><br>William Tichenor</h1>
 		<p>A summary of some projects I have worked on or completed over the years. My personal github account can be found <a href="https://github.com/WilliamTichenor">here</a>.</p>
 		<ul style="list-style-type:disc;">
-			<li>A neural network that can play tic-tac-toe against the player. It uses a genetic algorithm to train the network by playing against itself. The entire project was made from scratch in Java.</li>
-			<li>A Unity project that involves manipulating a game of minesweeper using a cube. The different sides of the cube have different effects on the board, such as revealing tiles or flagging them. You move the cube by rolling it around the board, and every board was guaranteed to be solvable.</li>
+			<li>A neural network that can play tic-tac-toe against the player. It uses a genetic algorithm to train the network by playing against itself. The entire project was made from scratch in Java. <a href="https://github.com/WilliamTichenor/TicTacToe-Bot">Find here</a><img src="tictactoe.png"/></li>
+			<li>A Unity project that involves manipulating a game of minesweeper using a cube. The different sides of the cube have different effects on the board, such as revealing tiles or flagging them. You move the cube by rolling it around the board, and every board was guaranteed to be solvable.<img src="cubesweeper.png"/></li>
 			<li>Various projects from Computer Science classes at TAMU, such as CSCE 121, CSCE 315, CSCE 313, CSCE 221, and others.</li>
 		</ul>
 		

@@ -1,16 +1,32 @@
 #navDiv {
 	text-align: left;
-	margin-left: -8px;
-	margin-top: -21px;
+	margin-left: -508px;
+	margin-top: -10px;
 }
 
 .nav_button {
 	font-size: 50px;
 	border-radius: 0px;
-	border: none;
-	background-color: red;
+	border: 2px solid #3CBE41;
+	background-color: #FFFFFF;
 	display:block;
-	width: 16.666666666%;
+	width: 25%;
 	padding-bottom:10px;
-	font-family: "Lucida Console", "Courier New", monospace;
+	font-family: "Times New Roman", Times, serif;
+}
+#nameHeader {
+	text-align:center;
+	font-size:70px;
+	margin-top:-500px;
+	color: black;
+}
+
+body {
+	background-color:#7070B0;
+	font-family: "Times New Roman", Times, serif;
+	margin-left:500px;
+}
+
+p {
+	font-size: 18px;
 }
